@@ -1,6 +1,6 @@
 {
     "name": "node-red-contrib-dx-viewer",
-    "version": "0.0.7",
+    "version": "0.0.1",
     "description": "Node-red devextreem",
     "dependencies": {},
     "scripts": {
@@ -20,12 +20,12 @@
     },
     "node-red": {
       "nodes": {
-        "table-viewer": "src/table_viewer.js"
+        "dx-viewer": "src/dx_viewer.js"
       }
     },
     "author": {
-      "name": "Craig Li",
-      "email": "craig.guanyi.li@gmail.com",
+      "name": "Mike",
+      "email": "mltfive@gmail.com",
       "url": "https://github.com/7dir/node-red-contrib-dx-viewer"
     },
     "readmeFilename": "README.md",
