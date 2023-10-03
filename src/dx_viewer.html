@@ -48,7 +48,7 @@
                 toggle: "active",
                 visible: function () { return true; },
                 onclick: function () {
-                    const label = this.name || "table viewer";
+                    const label = this.name || "dx viewer";
                     var node = this;
                     $.ajax({
                         url: `dx-viewer/${this.id}/${this.active ? 'enable' : 'disable'}`,
